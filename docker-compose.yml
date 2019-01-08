@@ -1,0 +1,7 @@
+version: "3"
+services:
+  policy:
+    image: registry.cn-beijing.aliyuncs.com/yszar/policy:latest
+    volumes:
+      - ./res.csv:/code/res.csv:rw
+      - ./stcokcode_test.xlsx:/code/stcokcode_test.xlsx:rw
