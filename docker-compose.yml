@@ -4,4 +4,5 @@ services:
     image: registry.cn-beijing.aliyuncs.com/yszar/policy:latest
     volumes:
       - ./res.csv:/code/res.csv:rw
+      - ./pdfs:/code/pdfs:rw
       - ./stcokcode_test.xlsx:/code/stcokcode_test.xlsx:rw
